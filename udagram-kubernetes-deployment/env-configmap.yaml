@@ -10,5 +10,3 @@ data:
   AWS_REGION: us-east-1
   JWT_SECRET: hello  
   URL: http://localhost:8100
-metadata:
-  name: env-config

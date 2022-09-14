@@ -15,12 +15,12 @@ spec:
         service: udagram-reverseproxy
     spec:
       containers:
-      - name: nginx
-        image: juandavidtorres/reverseproxy:v1
+      - name: udagram-reverseproxy
+        image: juandavidtorres/udagram-reverseproxy:latest
         imagePullPolicy: Always          
         resources:
           requests:
-            memory: "64Mi"
+            memory: "128Mi"
             cpu: "250m"
           limits:
             memory: "1024Mi"
